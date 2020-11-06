@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: sans-serif;
+background-color: #e0fbfc;
+}
+
+.menu-bar{
+    background: #3d405b;
+    text-align: center;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.active, .menu-bar ul li:hover{
+    background: #e07a5f;
+    border-radius: 3px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #3d405b;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin:10px;
+}
+
+.herhaalMenu{
+    padding-left: 10%;
+}
+
+.content{
+    padding-left: 10%;
+    Padding-right: 10%;
+    margin-top: 20px;
+}
+
+video{
+    max-width: 1000px;
+    max-height: 800px;
+}
+
+.naast{
+    max-width: 500px;
+}
+
+.naast2{
+    max-width: 900px;
+}
+
+.rotate{
+    
+    transform: rotate(270deg);
+    height: 1000px;
+    width: 450px;
+    object-fit: cover;
+    z-index: 4;
+    visibility: visible;
+    margin-bottom: -150px;
+    margin-top: -150px;
+    margin-left: 10%;
+}
+
+.rotate2{
+    transform: rotate(90deg);
+    height: 1000px;
+    width: 450px;
+    object-fit: cover;
+    z-index: 4;
+    visibility: visible;
+    margin-bottom: -300px;
+    margin-top: -200px;
+    margin-left: 5%;
+    
+
+}
+
+img{
+    max-width: 1000px;
+    max-height: 800px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p, b{
+    font-size: 25px;
+}
+
